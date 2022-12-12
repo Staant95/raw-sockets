@@ -6,3 +6,4 @@ build
 
 app/bin
 app/build
+.vscode
