@@ -1,0 +1,59 @@
+allprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'application'
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+      testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// plugins {
+//   id 'java'
+//   id 'java-library'
+// }
+
+// apply plugin: 'java-library'
+
+// // dependencies {
+// //   compile 'org.xerial:sqlite-jdbc:3.8.11.2'
+// // }
+// allprojects {
+//     dependencies {
+//         annotationProcessor 'org.mapstruct:mapstruct-processor:1.0.0'
+//     }
+// }
+
+
+  // plugins {
+  //   id 'java'
+  //   id "com.google.protobuf" version "0.9.1"
+  // }
+
+  // repositories {
+  //   mavenCentral()
+  //   gradlePluginPortal()
+  // }
+
+  // dependencies {
+  //   implementation 'com.google.protobuf:protobuf-gradle-plugin:0.9.1'
+  // }
+
+
+
+
+
+

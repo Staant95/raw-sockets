@@ -1,4 +1,4 @@
-package com.stasapp;
+package com.stasapp.client;
 
 import java.io.BufferedReader;
 import java.io.IOException;

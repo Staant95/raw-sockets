@@ -1,0 +1,14 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+testing {
+    suites {
+        test {
+            useJUnitJupiter('5.8.2')
+        }
+    }
+}

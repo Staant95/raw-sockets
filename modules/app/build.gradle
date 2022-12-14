@@ -1,0 +1,31 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+dependencies {
+    implementation project(':modules:client')
+    implementation project(':modules:server')
+}
+
+testing {
+    suites {
+        // Configure the built-in test suite
+        test {
+            // Use JUnit Jupiter test framework
+            useJUnitJupiter('5.8.2')
+        }
+    }
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'app.App'
+}
+
+tasks {
+    run {
+        dependsOn jar
+        main = 'app.App'
+    }
+
+}
